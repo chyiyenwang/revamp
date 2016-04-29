@@ -1,3 +1,39 @@
-.splash {
-  background: url('../img/background.jpg');
+.well, .navbar, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  border-collapse: collapse !important;
+  background-image: none !important;
+}
+
+
+.navbar {
+  color: black;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  margin-top: -20px;
+  height: 790px;
+  text-align: center;
+  background: black url('../img/background.jpg') center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media(min-width: 768px) {
+  body {
+    height: 536px;
+  }
+}
+
+.about {
+  height: 640px;
+  background-color: black;
 }

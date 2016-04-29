@@ -5,9 +5,13 @@ import Navbar from './components/navbar';
 class App extends Component {
   render() {
     return (
-      <Navbar />
+      <div>
+        <Navbar />
+        <div className="intro"></div>
+        <div className="about"></div>
+      </div>
     )
   }
 }
 
-ReactDOM.render(<App />, document.querySelector('.splash'))
+ReactDOM.render(<App />, document.querySelector('.main'))
